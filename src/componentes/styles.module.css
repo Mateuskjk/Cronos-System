@@ -1,0 +1,878 @@
+/* Corpo Geral do HTML*/
+.container{ 
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  background: #85B0B0;
+  width: 1920px;
+  height: 100%;
+}
+/*Estilização da NavBar*/
+.nav{
+  padding: 1.9rem;
+}
+/*titulo do input*/
+.nav label h5 {
+  color: #898989;
+  margin-left: 32px;
+  margin-bottom: 6px;
+}
+/*input de pesquisa*/
+.searchBar{
+  display: flex;
+  width: 19rem;
+  margin-left: 32px;
+  padding: .4rem;
+  background-color: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  border-radius: 6px;
+  outline: 0;
+}
+/*botão de criar atividade*/
+.Btn {
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: 10rem;
+  height: 40px;
+  left: 120px;
+  top: 7vh;
+  margin-left: 1090px ;
+  border-radius: 6px;
+  background-color: rgba(4, 52, 52, 0.2);
+  border: 0px;
+  cursor: pointer;
+}
+/*estilização do paragrafo do botão*/
+.Btn p{
+  color: #fff;
+  text-align: center;
+  margin: 15px;
+  padding: .4rem;
+
+}
+.Btn p:hover {
+  color: #043434;
+  
+}
+/*botão de login*/
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  margin-left: 1345px;
+  margin-top: -12vh;
+  background: #EEEEEE;
+  border: 1px solid #CAC4C4;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.login h5 {
+  font-size: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.login h5:hover{
+  cursor: pointer;
+  text-decoration: underline #000;
+}
+/*filtro*/
+.link{
+  cursor: pointer;
+  color: #EEEEEE;
+  text-decoration: none;
+  display: flex;  
+  position: absolute;
+  margin-left: 688px;
+}
+/*filtro > imagem*/
+.link a > img {
+  margin-bottom: -60vh;
+}
+/*filto > estilização dp paragrafo*/
+.link p{
+  margin-left: 10px;
+  margin-top: -3vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0.8px;
+}
+.link p:hover {
+  text-decoration: underline #000;
+  color: #000;
+}
+/*Estilização do campo de cartões*/
+.field{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 410px;
+  height: 1080px;
+  margin-top: 4px;
+  margin-left: 4.1vw;
+  border: 1px solid rgba(4, 52, 52, 0.2);
+  border-radius: 7px;
+}
+/*Estilização do Titulo*/
+.field h1{
+  color: #043434;
+  margin-top: 18px;
+  margin-left: 25px;
+}
+.field h1:hover {
+  color: #fff;
+  cursor: pointer;
+}
+/*Estilização do Segundo Campo*/
+.fieldsDois{
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  height: 1080px;
+  margin-top: 15px;
+  margin-left: 37vw;
+  border: 1px solid rgba(4, 52, 52, 0.2);
+  border-radius: 7px;
+}
+/*Estilização do Titulo*/
+.fieldsDois h1{
+  color: #043434;
+  margin-top: 18px;
+  margin-left: 25px;
+}
+.fieldsDois h1:hover {
+  color: #fff;
+  cursor: pointer;
+}
+/*Estilização do Terceiro Campo*/
+.fieldsTres{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 410px;
+  height: 1080px;
+  margin-top: -145vh;
+  margin-left: 71vw;
+  border: 1px solid rgba(4, 52, 52, 0.2);
+  border-radius: 7px;
+}
+/*Estilização do titulo*/
+.fieldsTres h1{
+  color: #043434;
+  margin-top: 18px;
+  margin-left: 25px;
+}
+.fieldsTres h1:hover {
+  color: #fff;
+  cursor: pointer;
+}
+/*Estilização dos Cartoões*/
+.cards{
+  width: 330px;
+  height: auto;
+  padding: 5px;
+  margin-left: 25px;
+  margin-top: 25px;
+  background-color: #EEEEEE;
+  color: #000;
+  border-radius: 7px;
+  box-shadow: 0px 4px 16px #EAE2FD;
+  cursor: pointer;
+}
+.cards h4 {
+  margin: 5px;
+}
+.cards h4:hover{
+  cursor: pointer;
+  color: #043434;
+}
+.cards p {
+  color:#756966;
+  margin: 5px;
+}
+.dat{
+  background-color: #85B0B0;
+  border: 1px solid #85B0B0;
+  border-radius: 10px;
+  padding: 0px;
+  margin-bottom: 5px;
+  margin-right: 170px;
+  margin-top: 10px;
+  text-align: center;
+}
+.dat p{
+  color: #043434;
+}
+.dat p:hover{
+  color: #fff;
+}
+/*estilização do icone de busca*/
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 21vw;
+  margin-top: -3.3vh;
+}
+/*Estilização do UserIcon*/
+.userIcon{
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 25px;
+  margin-left: 20px;
+  gap: 4px;
+  margin-right: 5px;
+}
+.userIcon:hover{
+  cursor: pointer;
+}
+/*Estilização do icone do filtro*/
+.filterIcon{
+  width: 15px;
+  height: 10px;
+  margin-top: -4vh;
+}
+.filterIcon:hover{
+  color: #000;
+  text-decoration: underline;
+}
+/*====Responsividade da HomePage====*/
+/*Dispositivo móvel P (320px)*/
+@media (max-width: 320px) {
+  .container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 658vh;
+    background-color: #85B0B0;
+  }
+  .nav{
+    padding: 1rem;
+  }
+  /*titulo do input*/
+  .nav label h5 {
+    color: #898989;
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .searchBar{
+    display: flex;
+    width: 16rem;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding: .2rem;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+    outline: 0;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 79vw;
+    margin-top: -3.3vh;
+  }
+  /*botão de criar atividade*/
+  .Btn {
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 5rem;
+    height: 40px;
+    left: 10px;
+    top: 17vh;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 220px ;
+    border-radius: 50px;
+    background-color: rgba(4, 52, 52, 0.2);
+    border: 0px;
+    cursor: pointer;
+  }
+  /*estilização do paragrafo do botão*/
+  .Btn p{
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    padding: .4rem;
+  }
+  .Btn p:hover {
+    color: #043434;
+  }
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    width: 115px;
+    height: 30px;
+    margin-left: 185px;
+    margin-top: -14vh;
+    background: #EEEEEE;
+    border: 1px solid #CAC4C4;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .login h5 {
+    font-size: 10px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  .login h5:hover{
+    cursor: pointer;
+    text-decoration: underline #000;
+  }
+  .userIcon{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 25px;
+    margin-left: 15px;
+    gap: 4px;
+    margin-right: 5px;
+  }
+  .userIcon:hover{
+    cursor: pointer;
+  }
+  .componentes {
+    margin-top: 30px;
+  }
+  .field{
+    width: 295px;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 22px;
+    border: 1px solid rgba(4, 52, 52, 0.2);
+    border-radius: 7px;
+  }
+  .field h1{
+    font-size: 20px;
+    color: #043434;
+    margin-top: 9px;
+    margin-left: 15px;
+  }
+  .field h1:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+  .fieldsDois{
+    width: 295px;
+    height: 260px;
+    margin-top: -5vh;
+    margin-left: 4vw;
+    margin-bottom: 15px;
+    border: 1px solid rgba(4, 52, 52, 0.2);
+    border-radius: 7px;
+  }
+  /*Estilização do Titulo*/
+  .fieldsDois h1{
+    font-size: 20px;
+    color: #043434;
+    margin-top: 9px;
+    margin-left: 15px;
+  }
+  .fieldsDois h1:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+  .fieldsTres{
+    width: 295px;
+    height: 260px;
+    margin-top: 0.7vh;
+    margin-left: -0.4vw;
+    margin-right: 12px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(4, 52, 52, 0.2);
+    border-radius: 7px;
+  }
+  /*Estilização do titulo*/
+  .fieldsTres h1{
+    font-size: 20px;
+    color: #043434;
+    margin-top: 9px;
+    margin-left: 15px;
+  }
+  .fieldsTres h1:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+  .cards{
+    width: 260px;
+    height: 168px;
+    padding: 5px;
+    margin-left: 12px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    background-color: #EEEEEE;
+    color: #000;
+    border-radius: 7px;
+    box-shadow: 0px 4px 16px #EAE2FD;
+    cursor: pointer;
+  }
+  .cards h4 {
+    margin: 5px;
+  }
+  .cards h4:hover{
+    cursor: pointer;
+    color: #043434;
+  }
+  .cards p {
+    color:#756966;
+    margin: 2px;
+  }
+  .dat{
+    background-color: #85B0B0;
+    border: 1px solid #85B0B0;
+    border-radius: 10px;
+    padding: 0px;
+    margin-right: 110px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .dat p{
+    color: #043434;
+  }
+  .dat p:hover{
+    color: #fff;
+  } 
+}
+/*Dispositivo móvel M (375px)*/
+@media (max-width:375px) {
+  .componentes {
+    margin: 25px;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    height: auto;
+    background-color: #85B0B0;
+  }
+  .nav {
+    padding: 2rem;
+  }
+  .nav label h5 {
+    color: #898989;
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .searchBar {
+    display: flex;
+    width: 17.5rem;
+    margin-top: 0px;
+    margin-left: 13px;
+    padding: .3rem;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+    outline: 0;
+  }
+  .icon{
+    margin-left: 280px;
+  }
+  .login {
+    position: absolute;
+    margin-top: -17vh;
+    margin-left: 220px;
+  }
+  .login h5 {
+    font-size: 10px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  .login h5:hover{
+    cursor: pointer;
+    text-decoration: underline #000;
+  }
+  .Btn {
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 5rem;
+    height: 40px;
+    left: 65px;
+    top: 20vh;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 220px ;
+    border-radius: 50px;
+    background-color: rgba(4, 52, 52, 0.2);
+    border: 0px;
+    cursor: pointer;
+  }
+  /*estilização do paragrafo do botão*/
+  .Btn p{
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    padding: .4rem;
+  }
+  .Btn p:hover {
+    color: #043434;
+  }
+}
+/*Dispositivo móvel G (425px)*/
+@media (max-width: 425px) {
+  .componentes {
+    margin: 45px;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 425px;
+    height: auto;
+    background-color: #85B0B0;
+  }
+  .nav {
+    padding: 2.5rem;
+  }
+  .nav label h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+  }
+  .searchBar {
+    display: flex;
+    width: 18.5rem;
+    margin-top: 0px;
+    margin-left: 13px;
+    padding: .3rem;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+    outline: 0;
+  }
+  .icon{
+    margin-left: 295px;
+  }
+  .login {
+    position: absolute;
+    margin-top: -20vh;
+    margin-left: 245px;
+  }
+  .login h5 {
+    font-size: 10px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  .login h5:hover{
+    cursor: pointer;
+    text-decoration: underline #000;
+  }
+  .Btn {
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 5rem;
+    height: 40px;
+    left: 100px;
+    top: 25vh;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 220px ;
+    border-radius: 50px;
+    background-color: rgba(4, 52, 52, 0.2);
+    border: 0px;
+    cursor: pointer;
+  }
+  /*estilização do paragrafo do botão*/
+  .Btn p{
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    padding: .4rem;
+  }
+  .Btn p:hover {
+    color: #043434;
+  }
+  .field {
+    width: 325px;
+    height: 265px;
+    margin-left: 6px;
+  }
+  .field h1 {
+    margin-left: 25px;
+  }
+  .fieldsDois {
+    width: 325px;
+    height: 265px;
+    margin-left: 6px;
+  }
+  .fieldsDois h1 {
+    margin-left: 25px;
+  }
+  .fieldsTres {
+    width: 325px;
+    height: 265px;
+    margin-left: 6px;
+  }
+  .fieldsTres h1 {
+    margin-left: 25px;
+  }
+  .cards {
+    margin-left: 25px;
+  }
+  .link {
+    margin-top: -15vh;
+    margin-left: 119px;
+  }
+  .link p {
+    margin-top: -2.5vh;
+    font-size: 12px;
+  }
+
+}  
+/*Dispositivo Tablet (768px)*/
+@media (max-width: 768px) {
+  .componentes {
+    margin: 25px;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 768px;
+    height: auto;
+    background-color: #85B0B0;
+  }
+  .nav {
+    padding: 3rem;
+  }
+  .nav label h5 {
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 1px;
+  }
+  .searchBar {
+    display: flex;
+    width: 20rem;
+    margin-top: 5px;
+    margin-left: -5px;
+    padding: .3rem;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+    outline: 0;
+  }
+  .icon{
+    margin-left: 305px;
+  }
+  .login {
+    margin-left: 590px;
+  }
+  .link {
+    margin-left: 298px;
+  }
+  .Btn {
+    width: 135px;
+    border-radius: 8px;
+    margin-top: -7vh;
+    margin-left: 520px;
+    padding: 1px;
+  }
+  .field {
+    margin-left: 2px;
+    margin-right: 10px;
+  }
+  .fieldsDois {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   float: right;
+   margin-top: 2.5vh;
+   margin-left: 10px;
+   margin-right: 30px;
+  }
+  .fieldsDois h1 {
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 165px;
+  }
+  .fieldsTres {
+    display: flex;
+    float: left;
+    margin-right: 375px;
+  }
+
+}
+/*Dispositivo LapTop (1024px)*/
+@media (max-width: 1024px) {
+  .componentes {
+    margin-right: 40px;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 1024px;
+    height: 658vh;
+    background: #85B0B0;
+  }
+  .nav {
+    padding: 3rem;
+  }
+  .login {
+    margin-left: 852px;
+    margin-top: -22vh;
+  }
+  .Btn {
+    margin-left: 777px;
+  }
+  .link {
+    margin-top: 1.3vh;
+    margin-left: 490px;
+  }
+  .field {
+    width: 300px;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .field h1 {
+    margin-right: 200px;
+  }
+  .fieldsDois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 300px;
+    margin-left: 60px;
+    margin-right: 700px;
+    margin-top: -44vh;
+  }
+  .fieldsTres{
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-top: -44vh;
+    margin-left: 650px;
+  }
+  .fieldsTres h1{
+    margin-left: 5px;
+    margin-right: 160px;
+  }
+  .cards {
+    margin-right: 25px;
+  }
+  .cardsTwo{
+    margin-right: 25px;
+  }
+}
+/*Dispositivo LapTop G (1440px)*/
+@media (max-width: 1440px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    background-color: #85B0B0;
+  }
+  .nav {
+    padding: 2rem;
+  }
+  .nav label h5 {
+    font-size: 23px;
+  }
+  .login {
+    width: 150px;
+    height: 45px;
+    border-radius: 7px;
+    margin-top: -20vh;
+    margin-left: 1245px;
+  }
+  .Btn {
+    width: 150px;
+    margin-left: 1030px;
+  }
+  .Btn p {
+    text-align: center;
+    margin-left: 14px;
+  }
+  .link {
+    margin-left: 665px;
+  }
+  .searchBar {
+    width: 25vw;
+    margin-left: 30px;
+  }
+  .nav label h5 {
+    margin-left: 33px;
+  }
+  .icon{
+    margin-left: 375px;
+  }
+  .link p {
+    font-size: 15px;
+  }
+  .field{ /*a fazer*/
+    width: 400px;
+    height: 800px;
+    display: flex;
+    margin-right: 20px;
+  }
+  .field h1 {
+    margin-top: -78vh;
+    margin-right: 285px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    flex-wrap: wrap;
+  }
+  .fieldsDois{ /*fazendo*/
+    width: 400px;
+    height: 800px;
+    margin-left: 480px;
+    margin-top: -125vh;
+  }
+  .fieldsDois h1 {
+    margin-top: -78vh;
+    margin-right: 230px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    flex-wrap: wrap;
+  }
+  .fieldsTres { /*finalizando*/
+    width: 390px;
+    height: 800px;
+    margin-left: 960px;
+    margin-right: 0;
+    margin-top: -125vh;
+  }
+  .fieldsTres h1 {
+    margin-top: -78vh;
+    margin-right: 230px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    flex-wrap: wrap;
+  }
+  .cards{
+    width: 340px;
+  }
+  .cards p {
+    margin-top: 15px;
+  }
+  .dat{
+    margin-top: 15px;
+  }
+  .dat p {
+    margin: 5px;
+  }
+}
